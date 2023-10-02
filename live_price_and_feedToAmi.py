@@ -8,11 +8,11 @@ import sys
 import glob
 import win32com.client
 
-# Define import table as a list of dictionaries
+
 imp_tbl = [
     {
         'db': r"C:\Program Files\AmiBroker\Zerodah",
-        'data': "",  # Will be updated dynamically
+        'data': "",  
         'format': r"wizard.format"
     },
 ]
